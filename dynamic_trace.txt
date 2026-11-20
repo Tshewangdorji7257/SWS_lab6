@@ -1,0 +1,342 @@
+21976 execve("/usr/bin/python3", ["python3", "suspicious_sample.py"], 0x7ffc739f51a0 /* 79 vars */) = 0
+21976 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+21976 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+21976 open("/proc/sys/vm/overcommit_memory", O_RDONLY) = 3
+21976 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY|O_CLOEXEC) = 3
+21976 getcwd("/home/tshewangdorji/SWS405_MalwareLab", 4096) = 38
+21976 openat(AT_FDCWD, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/python3", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/python3", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/.local/bin/python3", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/local/sbin/python3", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/sbin/python3", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/sbin/python3", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/local/bin/python3", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/bin/python3", {st_mode=S_IFREG|0755, st_size=8259912, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+21976 openat(AT_FDCWD, "/usr/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+21976 readlink("/usr/bin/python3", "python3.14", 4096) = 10
+21976 readlink("/usr/bin/python3.14", 0x7fff4fc07f90, 4096) = -1 EINVAL (Invalid argument)
+21976 openat(AT_FDCWD, "/usr/bin/python3._pth", O_RDONLY) = -1 ENOENT (No such file or directory)
+21976 openat(AT_FDCWD, "/usr/bin/python3.14._pth", O_RDONLY) = -1 ENOENT (No such file or directory)
+21976 openat(AT_FDCWD, "/usr/bin/pybuilddir.txt", O_RDONLY) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/bin/lib/python314.zip", 0x7fff4fc0cc50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python314.zip", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/bin/lib/python3.14/os.py", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/bin/lib/python3.14/os.pyc", 0x7fff4fc0cf50, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/os.py", {st_mode=S_IFREG|0644, st_size=41958, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python314.zip", 0x7fff4fc0c780, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python314.zip", 0x7fff4fc0cba0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/__init__.cpython-314-x86_64-linux-gnu.so", 0x7fff4fc0cba0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/__init__.abi3.so", 0x7fff4fc0cba0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/__init__.abi3-x86_64-linux-gnu.so", 0x7fff4fc0cba0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/__init__.so", 0x7fff4fc0cba0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5945, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5945, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/encodings/__pycache__/__init__.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/encodings", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=16255, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=16255, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/encodings/__pycache__/aliases.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/encodings/__pycache__/utf_8.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/bin/pyvenv.cfg", 0x7fff4fc0c4d0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/pyvenv.cfg", 0x7fff4fc0c4d0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/.local/lib/python3.14/site-packages", 0x7fff4fc0c7e0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/PasteScript-3.7.0-nspkg.pth", {st_mode=S_IFREG|0644, st_size=462, ...}, AT_SYMLINK_NOFOLLOW) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3/dist-packages/PasteScript-3.7.0-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/utf_8_sig.py", {st_mode=S_IFREG|0644, st_size=4133, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/encodings/utf_8_sig.py", {st_mode=S_IFREG|0644, st_size=4133, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/encodings/__pycache__/utf_8_sig.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/types.py", {st_mode=S_IFREG|0644, st_size=11464, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/types.py", {st_mode=S_IFREG|0644, st_size=11464, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/types.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib/__init__.cpython-314-x86_64-linux-gnu.so", 0x7fff4fc0b6e0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib/__init__.abi3.so", 0x7fff4fc0b6e0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib/__init__.abi3-x86_64-linux-gnu.so", 0x7fff4fc0b6e0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib/__init__.so", 0x7fff4fc0b6e0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib/__init__.py", {st_mode=S_IFREG|0644, st_size=4767, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib/__init__.py", {st_mode=S_IFREG|0644, st_size=4767, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/importlib/__pycache__/__init__.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/importlib", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib/_abc.py", {st_mode=S_IFREG|0644, st_size=1354, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/importlib/_abc.py", {st_mode=S_IFREG|0644, st_size=1354, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/importlib/__pycache__/_abc.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/paste/__init__.cpython-314-x86_64-linux-gnu.so", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/paste/__init__.abi3.so", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/paste/__init__.abi3-x86_64-linux-gnu.so", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/paste/__init__.so", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/paste/__init__.py", {st_mode=S_IFREG|0644, st_size=0, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/distutils-precedence.pth", {st_mode=S_IFREG|0644, st_size=151, ...}, AT_SYMLINK_NOFOLLOW) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3/dist-packages/distutils-precedence.pth", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/_distutils_hack/__init__.cpython-314-x86_64-linux-gnu.so", 0x7fff4fc0bd10, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/_distutils_hack/__init__.abi3.so", 0x7fff4fc0bd10, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/_distutils_hack/__init__.abi3-x86_64-linux-gnu.so", 0x7fff4fc0bd10, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/_distutils_hack/__init__.so", 0x7fff4fc0bd10, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/_distutils_hack/__init__.py", {st_mode=S_IFREG|0644, st_size=6755, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/_distutils_hack/__init__.py", {st_mode=S_IFREG|0644, st_size=6755, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3/dist-packages/_distutils_hack/__pycache__/__init__.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/repoze.lru-0.7-nspkg.pth", {st_mode=S_IFREG|0644, st_size=539, ...}, AT_SYMLINK_NOFOLLOW) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3/dist-packages/repoze.lru-0.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/repoze/__init__.cpython-314-x86_64-linux-gnu.so", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/repoze/__init__.abi3.so", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/repoze/__init__.abi3-x86_64-linux-gnu.so", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/repoze/__init__.so", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/repoze/__init__.py", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/repoze/__init__.pyc", 0x7fff4fc0c340, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages/repoze", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/dist-packages", 0x7fff4fc0c7e0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/sitecustomize.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/suspicious_sample.py", {st_mode=S_IFREG|0644, st_size=2796, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/suspicious_sample.py", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/suspicious_sample.py", {st_mode=S_IFREG|0644, st_size=2796, ...}, 0) = 0
+21976 readlink("suspicious_sample.py", 0x7fff4fbfb700, 4096) = -1 EINVAL (Invalid argument)
+21976 getcwd("/home/tshewangdorji/SWS405_MalwareLab", 1024) = 38
+21976 readlink("/home/tshewangdorji/SWS405_MalwareLab/suspicious_sample.py", 0x7fff4fbfc2d0, 1023) = -1 EINVAL (Invalid argument)
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/suspicious_sample.py", O_RDONLY) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib/__init__.cpython-314-x86_64-linux-gnu.so", 0x7fff4fc0cbb0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib/__init__.abi3.so", 0x7fff4fc0cbb0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib/__init__.abi3-x86_64-linux-gnu.so", 0x7fff4fc0cbb0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib/__init__.so", 0x7fff4fc0cbb0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib/__init__.py", {st_mode=S_IFREG|0644, st_size=46833, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib/__init__.py", {st_mode=S_IFREG|0644, st_size=46833, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/pathlib/__pycache__/__init__.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/operator.py", {st_mode=S_IFREG|0644, st_size=11158, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/operator.py", {st_mode=S_IFREG|0644, st_size=11158, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/operator.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/glob.py", {st_mode=S_IFREG|0644, st_size=20775, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/glob.py", {st_mode=S_IFREG|0644, st_size=20775, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/glob.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/contextlib.py", {st_mode=S_IFREG|0644, st_size=27801, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/contextlib.py", {st_mode=S_IFREG|0644, st_size=27801, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/contextlib.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/collections/__init__.cpython-314-x86_64-linux-gnu.so", 0x7fff4fc0ade0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/collections/__init__.abi3.so", 0x7fff4fc0ade0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/collections/__init__.abi3-x86_64-linux-gnu.so", 0x7fff4fc0ade0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/collections/__init__.so", 0x7fff4fc0ade0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=53021, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=53021, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/collections/__pycache__/__init__.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/keyword.py", {st_mode=S_IFREG|0644, st_size=1073, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/keyword.py", {st_mode=S_IFREG|0644, st_size=1073, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/keyword.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/reprlib.py", {st_mode=S_IFREG|0644, st_size=8064, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/reprlib.py", {st_mode=S_IFREG|0644, st_size=8064, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/reprlib.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/functools.py", {st_mode=S_IFREG|0644, st_size=43564, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/functools.py", {st_mode=S_IFREG|0644, st_size=43564, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/functools.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/__init__.cpython-314-x86_64-linux-gnu.so", 0x7fff4fc0b7d0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/__init__.abi3.so", 0x7fff4fc0b7d0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/__init__.abi3-x86_64-linux-gnu.so", 0x7fff4fc0b7d0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/__init__.so", 0x7fff4fc0b7d0, 0) = -1 ENOENT (No such file or directory)
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/__init__.py", {st_mode=S_IFREG|0644, st_size=17876, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/__init__.py", {st_mode=S_IFREG|0644, st_size=17876, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/re/__pycache__/__init__.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/enum.py", {st_mode=S_IFREG|0644, st_size=85450, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/enum.py", {st_mode=S_IFREG|0644, st_size=85450, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/enum.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/re", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/_compiler.py", {st_mode=S_IFREG|0644, st_size=26855, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/_compiler.py", {st_mode=S_IFREG|0644, st_size=26855, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/re/__pycache__/_compiler.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/_parser.py", {st_mode=S_IFREG|0644, st_size=40353, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/_parser.py", {st_mode=S_IFREG|0644, st_size=40353, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/re/__pycache__/_parser.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/_constants.py", {st_mode=S_IFREG|0644, st_size=6036, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/_constants.py", {st_mode=S_IFREG|0644, st_size=6036, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/re/__pycache__/_constants.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/_casefix.py", {st_mode=S_IFREG|0644, st_size=5444, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/re/_casefix.py", {st_mode=S_IFREG|0644, st_size=5444, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/re/__pycache__/_casefix.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/copyreg.py", {st_mode=S_IFREG|0644, st_size=7716, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/copyreg.py", {st_mode=S_IFREG|0644, st_size=7716, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/copyreg.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/fnmatch.py", {st_mode=S_IFREG|0644, st_size=6791, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/fnmatch.py", {st_mode=S_IFREG|0644, st_size=6791, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/fnmatch.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/pathlib", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib/_os.py", {st_mode=S_IFREG|0644, st_size=18161, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/pathlib/_os.py", {st_mode=S_IFREG|0644, st_size=18161, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/pathlib/__pycache__/_os.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/hashlib.py", {st_mode=S_IFREG|0644, st_size=9459, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/hashlib.py", {st_mode=S_IFREG|0644, st_size=9459, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/hashlib.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload/_hashlib.cpython-314-x86_64-linux-gnu.so", {st_mode=S_IFREG|0644, st_size=64208, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload/_hashlib.cpython-314-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libzstd.so.1", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/usr/lib/ssl/openssl.cnf", O_RDONLY) = 3
+21976 newfstatat(AT_FDCWD, "/etc/ssl/kali.cnf", {st_mode=S_IFREG|0644, st_size=689, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/etc/ssl/kali.cnf", O_RDONLY) = 4
+21976 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/platform.py", {st_mode=S_IFREG|0644, st_size=49128, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/platform.py", {st_mode=S_IFREG|0644, st_size=49128, ...}, 0) = 0
+21976 openat(AT_FDCWD, "/usr/lib/python3.14/__pycache__/platform.cpython-314.pyc", O_RDONLY|O_CLOEXEC) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3.14/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/local/lib/python3.14/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+21976 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=69632, ...}, 0) = 0
+21976 getcwd("/home/tshewangdorji/SWS405_MalwareLab", 1024) = 38
+21976 getcwd("/home/tshewangdorji/SWS405_MalwareLab", 1024) = 38
+21976 mkdir("/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files", 0777) = -1 ENOENT (No such file or directory)
+21976 mkdir("/home/tshewangdorji/SWS405_MalwareLab/lab_workspace", 0777) = 0
+21976 mkdir("/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files", 0777) = 0
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/student_record_demo.txt", 0x7fff4fc0d1e0, 0) = -1 ENOENT (No such file or directory)
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/student_record_demo.txt", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/project_report_demo.txt", 0x7fff4fc0d1e0, 0) = -1 ENOENT (No such file or directory)
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/project_report_demo.txt", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 3
+21976 newfstatat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/photo_description_demo.txt", 0x7fff4fc0d1e0, 0) = -1 ENOENT (No such file or directory)
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/photo_description_demo.txt", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 3
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/photo_description_demo.txt", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/project_report_demo.txt", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/victim_files/student_record_demo.txt", O_RDONLY|O_CLOEXEC) = 3
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/READ_ME_SIMULATION.txt", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 3
+21976 openat(AT_FDCWD, "/home/tshewangdorji/SWS405_MalwareLab/lab_workspace/simulation_activity.log", O_WRONLY|O_CREAT|O_APPEND|O_CLOEXEC, 0666) = 3
+21976 exit_group(0)                     = ?
+21976 +++ exited with 0 +++

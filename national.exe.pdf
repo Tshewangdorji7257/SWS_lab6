@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+"""
+SWS405 FILE IDENTIFICATION DEMONSTRATION
+Filename: national.exe.pdf
+
+This is a harmless Python text script with a misleading filename.
+It is NOT a PDF document and it is NOT a Windows executable.
+Do not double-click it. The exercise is to inspect it as data.
+"""
+
+print("SWS405: This file is a Python text script, not a PDF.")
+print("The filename extension does not determine the actual file type.")
