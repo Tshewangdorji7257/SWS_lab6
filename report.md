@@ -2,12 +2,6 @@
 
 **Static and Dynamic Malware Analysis Using Kali Linux (Harmless Ransomware-Behaviour Simulator)**
 
-Student name: ____________________  
-Student ID: ____________________  
-Date: 20 November 2026
-
----
-
 ## 1. Objective
 
 The objective of this practical was to analyse a harmless, instructor-supplied ransomware-behaviour simulator using both static and dynamic techniques. The practical covered identifying a file by its real format, calculating hashes, extracting strings, inspecting the file header, matching a YARA rule, executing the sample in a controlled environment, and comparing static predictions with dynamic observations. The findings were then recorded as training indicators of compromise (IOCs).
